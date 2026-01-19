@@ -61,6 +61,11 @@ header {
   animation: button-glow 2s infinite;
 }
 
+#new-text {
+  font-size: 18px;
+  filter: drop-shadow(0 0 10px rgb(0, 255, 136));
+  /* https://www.geeksforgeeks.org/css/understanding-css-shadows-box-shadow-vs-drop-shadow/ */
+}
 @keyframes button-glow-hover {
   0% {
     box-shadow: 0 0 5px #9100f8;
