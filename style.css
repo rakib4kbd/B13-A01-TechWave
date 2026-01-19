@@ -49,6 +49,42 @@ header {
   max-width: 1200px;
 }
 
+.nav-btn:hover {
+  animation: button-glow-hover 1s;
+}
+
+.btn-primary {
+  animation: button-glow-hover 2s infinite;
+}
+
+.btn-secondary {
+  animation: button-glow 2s infinite;
+}
+
+@keyframes button-glow-hover {
+  0% {
+    box-shadow: 0 0 5px #9100f8;
+  }
+  50% {
+    box-shadow: 0 0 20px #9100f8;
+  }
+  100% {
+    box-shadow: 0 0 5px #9100f8;
+  }
+}
+
+@keyframes button-glow {
+  0% {
+    box-shadow: 0 0 5px #00ff88;
+  }
+  50% {
+    box-shadow: 0 0 20px #00ff88;
+  }
+  100% {
+    box-shadow: 0 0 5px #00ff88;
+  }
+}
+
 .hamburger-menu {
   display: none;
 }
