@@ -50,6 +50,7 @@ header {
 }
 
 .nav-btn:hover {
+  cursor: pointer;
   animation: button-glow-hover 1s;
 }
 
