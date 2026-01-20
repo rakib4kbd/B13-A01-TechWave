@@ -133,7 +133,7 @@ header {
 
 .why-choose-section {
   background: #230e3d;
-  padding: 40px 0px;
+  padding: 120px 0px;
 }
 
 .why-choose-container {
@@ -419,6 +419,10 @@ footer {
     padding: 0px 0px;
   }
 
+  .why-choose-section {
+    padding: 40px 0px;
+  }
+
   .why-choose-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -477,6 +481,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
+    max-width: 400px;
+  }
+
+  .featured-episode-card {
+    max-width: 380px;
   }
 
   .meet-the-host {
@@ -521,7 +530,7 @@ footer {
 
   footer {
     background-image: url("assets/footer-bg.png");
-    background-size: 575px 300px;
+    background-size: 575px 350px;
     background-position: center center;
     background-repeat: no-repeat;
   }
